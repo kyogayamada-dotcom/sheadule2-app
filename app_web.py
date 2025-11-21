@@ -327,8 +327,8 @@ def create_student_req_df(student_names):
 # ==========================================
 # 4. メインアプリ (Streamlit)
 # ==========================================
-st.set_page_config(page_title="時間割作成(スマホ完結)", layout="wide")
-st.title("📱 個別指導塾 時間割作成 (改良版)")
+st.set_page_config(page_title="時間割作成", layout="wide")
+st.title("個別指導塾 時間割作成")
 
 # --- セッション状態の初期化 ---
 weeks_info = get_week_ranges()
